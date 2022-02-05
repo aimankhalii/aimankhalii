@@ -85,6 +85,21 @@ Page.Button({
     }
 })
 
+Page.Button({
+    Text = "warrior",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/381275291f2fc9e40e1a7119091cde01b6335335/README.md"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "your a warrior anyways click = punch"            
+            })
+        end
+    }
+})
+
+
 
 local Page = UI.New({
     Title = "Paid Scripts"
