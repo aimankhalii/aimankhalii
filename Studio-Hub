@@ -17,7 +17,7 @@ local Page = UI.New({
 Page.Button({
     Text = "Imortalily Lord",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/GTxiu46s"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Imortalily-lord"))()
     end,
     Menu = {
         Information = function(self)
@@ -31,7 +31,7 @@ Page.Button({
 Page.Button({
     Text = "BlockMan",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/FrwkW1Gn"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Blockman"))()
     end,
     Menu = {
         Information = function(self)
@@ -46,7 +46,7 @@ Page.Button({
 Page.Button({
     Text = "Hammer",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/Qy1d5xPP"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Hammer"))()
     end,
     Menu = {
         Information = function(self)
@@ -60,7 +60,7 @@ Page.Button({
 Page.Button({
     Text = "Stick",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/2AJCL37k"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-stick"))()
     end,
     Menu = {
         Information = function(self)
@@ -74,7 +74,7 @@ Page.Button({
 Page.Button({
     Text = "Suicide",
     Callback = function()
-       loadstring(game:HttpGet("https://pastebin.com/raw/DhrXBLhh"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-death"))()
     end,
     Menu = {
         Information = function(self)
