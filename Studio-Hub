@@ -99,6 +99,20 @@ Page.Button({
     }
 })
 
+Page.Button({
+    Text = "Sword",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Sword"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "your a warrior anyways click = punch"            
+            })
+        end
+    }
+})
+
 
 
 local Page = UI.New({
