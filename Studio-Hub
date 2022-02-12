@@ -114,6 +114,20 @@ Page.Button({
 })
 
 
+Page.Button({
+    Text = "Glitch💀",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Glitch"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "your a warrior anyways click = punch"            
+            })
+        end
+    }
+})
+
 
 local Page = UI.New({
     Title = "Paid Scripts"
