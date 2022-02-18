@@ -128,6 +128,20 @@ Page.Button({
     }
 })
 
+page.Button({
+    Text = "Amongus",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Amongus"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "anyways click = fling"            
+            })
+        end
+    }
+})
+
 
 local Page = UI.New({
     Title = "Paid Scripts"
