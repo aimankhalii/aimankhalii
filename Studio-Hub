@@ -128,23 +128,6 @@ Page.Button({
     }
 })
 
-
-Page.Button({
-    Text = "Amongus",
-    Callback = function()
-       https://raw.githubusercontent.com/aimankhalii/aimankhalii/main/roblox-fe-Amongus
-    end,
-    Menu = {
-        Information = function(self)
-            UI.Banner({
-                Text = "your a warrior anyways click = punch"            
-            })
-        end
-    }
-})
-
-
-
 local Page = UI.New({
     Title = "Game Hubs"
 })
